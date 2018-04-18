@@ -1,5 +1,4 @@
-FROM python:3.6.4-slim-jessie
-
+FROM python:3.6.5-stretch
 LABEL maintainer="Anton Shilov <vaccum121@gmail.com>" \
       description="Base image with dependencies for spellcheck"
 RUN apt-get update &&\
